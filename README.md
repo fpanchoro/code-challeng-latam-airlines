@@ -47,7 +47,7 @@ Entrenamiento de uno o varios modelos para estimar la probabilidad de atraso de 
 Evaluación del performance del o los modelos.
 
 
-# Desafí0
+# Desafío
 
 Como ML Engineer, tu desafío consiste en tomar el trabajo de este Data Scientist y exponerlo para que sea explotado por un sistema:
 
