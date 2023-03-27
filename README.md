@@ -30,23 +30,24 @@ En el jupyter vas a encontrar:
 
 ¿Cómo se distribuyen los datos?
 
-#Generación de columnas adicionales:
+Generación de columnas adicionales:
 
-#Temporada_alta: 1 si Fecha-I está entre 15-Dic y 3-Mar, o 15-Jul y 31-Jul, o 11-Sep y 30-Sep, 0 si no.
+Temporada_alta: 1 si Fecha-I está entre 15-Dic y 3-Mar, o 15-Jul y 31-Jul, o 11-Sep y 30-Sep, 0 si no.
 
-#dif_min: diferencia en minutos entre Fecha-O y Fecha-I.
+dif_min: diferencia en minutos entre Fecha-O y Fecha-I.
 
-#atraso_15: 1 si dif_min > 15, 0 si no.
+atraso_15: 1 si dif_min > 15, 0 si no.
 
 periodo_dia: mañana (entre 5:00 y 11:59), tarde (entre 12:00 y 18:59) y noche (entre 19:00 y 4:59), en base a Fecha-I.
 
-#¿Cómo se compone la tasa de atraso por destino, aerolínea, mes del año, día de la semana, temporada, tipo de vuelo? 
+¿Cómo se compone la tasa de atraso por destino, aerolínea, mes del año, día de la semana, temporada, tipo de vuelo? 
 
 Entrenamiento de uno o varios modelos para estimar la probabilidad de atraso de un vuelo (target atraso_15).
 
 Evaluación del performance del o los modelos.
 
-#Desafío
+
+# Desafí0
 
 Como ML Engineer, tu desafío consiste en tomar el trabajo de este Data Scientist y exponerlo para que sea explotado por un sistema:
 
